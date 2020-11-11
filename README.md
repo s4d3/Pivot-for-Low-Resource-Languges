@@ -12,6 +12,12 @@ We employed an extending phrase table to minimize the Japanese UNK in the source
 ```
 
 ### Running codes
+#### Finding Japanese UNK or OOV
+
+```
+  python3 nihonggofinder.py > 00-1b-DataALT.03.ja-id.OOV.gdfand.JaEn
+  
+```
 
 ```
   python3 nihonggofinder.py > 00-1b-DataALT.03.ja-id.OOV.gdfand.JaEn
