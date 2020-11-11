@@ -14,6 +14,7 @@ We employed an extending phrase table to minimize the Japanese UNK in the source
 ### Running codes
 
 ```
-  python3 nihonggofinder.py
+  python3 nihonggofinder.py > 00-1b-DataALT.03.ja-id.OOV.gdfand.JaEn
+  python3 jpnsorter.py > 00-1c-DataALT.03.ja-id.sortedOOV.gdfand.JaEn
 
 ```
