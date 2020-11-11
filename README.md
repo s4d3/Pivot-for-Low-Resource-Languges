@@ -20,14 +20,26 @@ Generated text of translation system, example:
 #### Sorting Japanese UNK based on Kanji, Katakana, Hiragana, and Mixed
 
 ```
-  
   python3 jpnsorter.py > 00-1c-DataALT.03.ja-id.sortedOOV.gdfand.JaEn
   
 ```
 #### Compare Japanese UNK from two files (phrase tables)
 
 ```
-  
   python3 tokencomparator-List.py
 
 ```
+
+#### Compare Japanese UNK with lex files
+
+```
+  python3 queryLexFile-withNonExistent.py
+
+```
+#### Query UNK from certain phrase table
+
+```
+  python3 queryPhraseTable-withNonExistent.py
+
+```
+
